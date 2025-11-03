@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:host {
+    font-family: 'Inter', sans-serif;
+
+    .body-home-desktop {
+        display: flex;
+
+        .introdution {
+            padding: 3rem 1rem 3rem 8rem;
+            display: flex;
+            height: 60vh;
+            align-items: center;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            width: 50%;
+
+            .title {
+                font-size: 4rem;
+                font-weight: 600;
+
+                .name {
+                    color: var(--primary-pink);
+                }
+            }
+
+            .subtitle {
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+
+                .position {
+                    color: var(--primary-pink);
+                }
+            }
+
+            .tag {
+                font-size: 5rem;
+                font-weight: 600;
+                color: var(--primary-pink);
+
+            }
+
+            .buttons {
+                display: flex;
+                gap: 1rem;
+                margin-top: 2rem;
+
+                .contact {
+                    border: 2px solid var(--primary-pink);
+                    color: #fff;
+                    background: var(--primary-pink);
+                    padding: 1.5rem 2.1rem 1.5rem 2.1rem;
+                    border-radius: 0.5rem;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    font-size: 1.1rem;
+
+                    &:hover {
+                        background: transparent;
+                        color: var(--text-primary);
+                    }
+                }
+
+                .view-more {
+                    border: 2px solid white;
+                    color: var(--text-primary);
+                    background: transparent;
+                    padding: 1.5rem 2.1rem 1.5rem 2.1rem;
+                    border-radius: 0.5rem;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    font-size: 1.1rem;
+
+                    &:hover {
+                        border: 2px solid var(--primary-pink);
+                    }
+                }
+
+            }
+        }
+
+        .perfil {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: center;
+            padding: 3rem 8rem 3rem 1rem;
+            height: 60vh;
+            width: 50%;
+
+            .image {
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 50vh;
+                height: 60vh;
+                background-image: url('../../assets/images/perfil.svg');
+            }
+        }
+    }
+}
