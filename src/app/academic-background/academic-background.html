@@ -3,20 +3,29 @@
     <div class="divider"></div>
 
     <div class="courses">
+
+        <div class="list">
+            <div class="card">
+                <div class="icon-tec"></div><br>
+                <span class="title">Técnico</span><br>
+                <span class="name">Informática - E.E.E.P José Vidal Alves - 2018</span>
+            </div>
+            <div class="card">
+                <div class="icon-pos"></div><br>
+                <span class="title">Pós graduação</span><br>
+                <span class="name">Engenharia de software - Faculdade Descomplica - 2025</span>
+            </div>
+            <div class="card">
+                <div class="icon-grad"></div><br>
+                <span class="title">Graduação</span><br>
+                <span class="name">Redes de computadores - Instituto federal de tecnologia e ciência - 2022</span>
+            </div>
+        </div>
+
+
         <span class="title">
             Outras certificações:<br>
         </span>
-
-        <div class="list-schools">
-            @for(course of listCourse; track course.id){
-            <div class="card">
-                <div class="teste"></div>
-                <img class="icon" [src]="course.icon" alt="{{ course.title }}" /><br>
-                <span class="title">{{ course.title }}</span><br>
-                <span class="name">{{ course.name }}</span>
-            </div>
-            }
-        </div>
 
         <span class="name-course">
             Scrum Foundation Professional Certificate (CertiProf)<br>
