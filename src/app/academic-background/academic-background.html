@@ -1,0 +1,29 @@
+<div class="container-academic">
+    <span class="title">FORMAÇÃO ACADÊMICA</span>
+    <div class="divider"></div>
+
+    <div class="courses">
+        <span class="title">
+            Outras certificações:<br>
+        </span>
+
+        <div class="list-schools">
+            @for(course of listCourse; track course.id){
+            <div class="card">
+                <div class="teste"></div>
+                <img class="icon" [src]="course.icon" alt="{{ course.title }}" /><br>
+                <span class="title">{{ course.title }}</span><br>
+                <span class="name">{{ course.name }}</span>
+            </div>
+            }
+        </div>
+
+        <span class="name-course">
+            Scrum Foundation Professional Certificate (CertiProf)<br>
+            Cybersecurity (FIAP);<br>
+            Branding Analytics (FIAP);<br>
+            Data Driven Decision (FIAP);<br>
+            e mais ...<br>
+        </span>
+    </div>
+</div>

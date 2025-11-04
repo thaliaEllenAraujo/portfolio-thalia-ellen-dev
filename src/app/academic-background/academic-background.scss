@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:host {
+    --font-default: 'DM Sans', sans-serif;
+    font-family: var(--font-default);
+}
+
+.container-academic {
+    padding: 3rem 8rem;
+    background-color: var(--primary-pink);
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .title {
+        color: white;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .divider {
+        background-color: white;
+        width: 6rem;
+        height: 0.7rem;
+        margin-top: 2rem;
+    }
+
+    .courses {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        .title {
+            font-size: 1.5rem;
+        }
+
+        .list-schools{
+            display: flex;
+            gap: 2rem;
+
+            .icon {
+                width: 10rem;
+                height: 10rem;
+            }
+
+            .card {
+                border: 1px solid white;
+                padding: 2rem;
+                border-radius: 0.8rem;
+                width: 40vh;
+            }
+        }
+
+        .name-course {
+            font-weight: 500;
+            color: white;
+        }
+    }
+
+}
