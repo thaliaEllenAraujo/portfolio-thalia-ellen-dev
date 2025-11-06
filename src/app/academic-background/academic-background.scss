@@ -6,10 +6,9 @@
 }
 
 .container-academic {
-    padding: 3rem 8rem;
+    padding: 3rem 6rem;
     background-color: var(--primary-pink);
     display: flex;
-    height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -68,7 +67,7 @@
                 background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
-                background-image: url('../../assets/icons/pos.svg');
+                background-image: url('../../../public/assets/icons/pos.svg');
             }
 
             .icon-grad {
@@ -79,7 +78,7 @@
                 margin: 0 auto 1rem auto;
                 width: 5rem;
                 height: 5rem;
-                background-image: url('../../assets/icons/graduacao.svg');
+                background-image: url('../../../public/assets/icons/graduacao.svg');
             }
 
             .icon-tec {
@@ -90,7 +89,7 @@
                 margin: 0 auto 1rem auto;
                 width: 5rem;
                 height: 5rem;
-                background-image: url('../../assets/icons/tecnico.svg');
+                background-image: url('../../../public/assets/icons/tecnico.svg');
             }
         }
 
